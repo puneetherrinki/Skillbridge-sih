@@ -1,0 +1,1229 @@
+{
+  "next": {
+    "user": 8,
+    "skill": 15,
+    "question": 65,
+    "internship": 5,
+    "application": 1,
+    "assessment": 1,
+    "roadmap": 1,
+    "report": 1
+  },
+  "users": [
+    {
+      "id": 1,
+      "role": "student",
+      "name": "Aarav Sharma",
+      "email": "aarav.demo@skillbridge.local",
+      "passwordHash": "b2a1f4fd0a460606b34c8913e2981dac8d2e283d778aba586c416ee2629bfa54"
+    },
+    {
+      "id": 2,
+      "role": "student",
+      "name": "Diya Patel",
+      "email": "diya.demo@skillbridge.local",
+      "passwordHash": "b2a1f4fd0a460606b34c8913e2981dac8d2e283d778aba586c416ee2629bfa54"
+    },
+    {
+      "id": 3,
+      "role": "student",
+      "name": "Rohan Mehta",
+      "email": "rohan.demo@skillbridge.local",
+      "passwordHash": "b2a1f4fd0a460606b34c8913e2981dac8d2e283d778aba586c416ee2629bfa54"
+    },
+    {
+      "id": 4,
+      "role": "company",
+      "name": "NovaTech Solutions",
+      "email": "nova.demo@skillbridge.local",
+      "passwordHash": "ea20133c853229bc6b2176035b44e37bdca391681784279ad4c3c3cf7c5945df"
+    },
+    {
+      "id": 5,
+      "role": "company",
+      "name": "DataWorks Labs",
+      "email": "data.demo@skillbridge.local",
+      "passwordHash": "ea20133c853229bc6b2176035b44e37bdca391681784279ad4c3c3cf7c5945df"
+    },
+    {
+      "id": 6,
+      "role": "company",
+      "name": "CloudNest Systems",
+      "email": "cloud.demo@skillbridge.local",
+      "passwordHash": "ea20133c853229bc6b2176035b44e37bdca391681784279ad4c3c3cf7c5945df"
+    },
+    {
+      "id": 7,
+      "role": "admin",
+      "name": "SkillBridge Admin",
+      "email": "admin.demo@skillbridge.local",
+      "passwordHash": "e86f78a8a3caf0b60d8e74e5942aa6d86dc150cd3c03338aef25b7d2d7e3acc7"
+    }
+  ],
+  "studentProfiles": {
+    "1": {
+      "college": "ABC Institute",
+      "branch": "Computer Science",
+      "year": "Final Year",
+      "cgpa": 8.4,
+      "careerGoal": "Full Stack Developer",
+      "bio": "Demo profile for local prototype testing."
+    },
+    "2": {
+      "college": "National College",
+      "branch": "Information Technology",
+      "year": "Third Year",
+      "cgpa": 8.7,
+      "careerGoal": "Data Analyst",
+      "bio": "Demo profile for local prototype testing."
+    },
+    "3": {
+      "college": "City Engineering College",
+      "branch": "Computer Science",
+      "year": "Final Year",
+      "cgpa": 8.1,
+      "careerGoal": "Backend Developer",
+      "bio": "Demo profile for local prototype testing."
+    }
+  },
+  "companyProfiles": {
+    "4": {
+      "industry": "Software",
+      "website": "https://example.com",
+      "location": "Bengaluru",
+      "description": "Demo company for local prototype testing."
+    },
+    "5": {
+      "industry": "Analytics",
+      "website": "https://example.com",
+      "location": "Hyderabad",
+      "description": "Demo company for local prototype testing."
+    },
+    "6": {
+      "industry": "Cloud Computing",
+      "website": "https://example.com",
+      "location": "Pune",
+      "description": "Demo company for local prototype testing."
+    }
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "category": "Programming"
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "category": "Programming"
+    },
+    {
+      "id": 3,
+      "name": "Java",
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "name": "HTML/CSS",
+      "category": "Web"
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "category": "Web"
+    },
+    {
+      "id": 6,
+      "name": "Node.js",
+      "category": "Backend"
+    },
+    {
+      "id": 7,
+      "name": "SQL",
+      "category": "Database"
+    },
+    {
+      "id": 8,
+      "name": "Git",
+      "category": "Tools"
+    },
+    {
+      "id": 9,
+      "name": "REST APIs",
+      "category": "Backend"
+    },
+    {
+      "id": 10,
+      "name": "Data Analysis",
+      "category": "Data"
+    },
+    {
+      "id": 11,
+      "name": "Communication",
+      "category": "Professional"
+    },
+    {
+      "id": 12,
+      "name": "Problem Solving",
+      "category": "Professional"
+    },
+    {
+      "id": 13,
+      "name": "Cloud Fundamentals",
+      "category": "Cloud"
+    },
+    {
+      "id": 14,
+      "name": "Linux",
+      "category": "Cloud"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "skillId": 1,
+      "role": "Full Stack Developer",
+      "skill": "JavaScript",
+      "question": "Which keyword declares a reassignable block-scoped variable?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "skillId": 5,
+      "role": "Full Stack Developer",
+      "skill": "React",
+      "question": "Which hook manages local component state?",
+      "options": [
+        "useState",
+        "useRoute",
+        "useFetch",
+        "useClass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "skillId": 6,
+      "role": "Full Stack Developer",
+      "skill": "Node.js",
+      "question": "Which runtime executes JavaScript outside the browser?",
+      "options": [
+        "Node.js",
+        "jQuery",
+        "Bootstrap",
+        "Webpack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "skillId": 7,
+      "role": "Full Stack Developer",
+      "skill": "SQL",
+      "question": "Which clause filters rows before grouping?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "JOIN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "skillId": 9,
+      "role": "Full Stack Developer",
+      "skill": "REST APIs",
+      "question": "Which HTTP method commonly creates a resource?",
+      "options": [
+        "GET",
+        "POST",
+        "DELETE",
+        "HEAD"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "skillId": 8,
+      "role": "Full Stack Developer",
+      "skill": "Git",
+      "question": "Which command copies a remote repository locally?",
+      "options": [
+        "push",
+        "merge",
+        "clone",
+        "status"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "skillId": 12,
+      "role": "Full Stack Developer",
+      "skill": "Problem Solving",
+      "question": "What is a useful first debugging step?",
+      "options": [
+        "Guess",
+        "Reproduce the issue",
+        "Delete the code",
+        "Ignore it"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "skillId": 4,
+      "role": "Full Stack Developer",
+      "skill": "HTML/CSS",
+      "question": "Which element represents the main page heading?",
+      "options": [
+        "<p>",
+        "<h1>",
+        "<section>",
+        "<head>"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "skillId": 4,
+      "role": "Frontend Developer",
+      "skill": "HTML/CSS",
+      "question": "Which CSS property controls space inside an element?",
+      "options": [
+        "margin",
+        "padding",
+        "border",
+        "display"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "skillId": 1,
+      "role": "Frontend Developer",
+      "skill": "JavaScript",
+      "question": "Which method creates a new array by transforming every item?",
+      "options": [
+        "filter()",
+        "map()",
+        "find()",
+        "reduceRight()"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "skillId": 5,
+      "role": "Frontend Developer",
+      "skill": "React",
+      "question": "Which hook is commonly used for side effects?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useMemoOnly",
+        "useClass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "skillId": 5,
+      "role": "Frontend Developer",
+      "skill": "React",
+      "question": "Why are keys used when rendering React lists?",
+      "options": [
+        "For CSS",
+        "To help React identify list items",
+        "To encrypt data",
+        "To call APIs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "skillId": 1,
+      "role": "Frontend Developer",
+      "skill": "JavaScript",
+      "question": "What does === compare?",
+      "options": [
+        "Only types",
+        "Only values",
+        "Value and type",
+        "References only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "skillId": 4,
+      "role": "Frontend Developer",
+      "skill": "HTML/CSS",
+      "question": "Which semantic element is intended for navigation links?",
+      "options": [
+        "<nav>",
+        "<div>",
+        "<span>",
+        "<aside>"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "skillId": 8,
+      "role": "Frontend Developer",
+      "skill": "Git",
+      "question": "Which command records staged changes?",
+      "options": [
+        "git pull",
+        "git commit",
+        "git clone",
+        "git init"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "skillId": 12,
+      "role": "Frontend Developer",
+      "skill": "Problem Solving",
+      "question": "What is a good first response to a UI bug?",
+      "options": [
+        "Reproduce and isolate it",
+        "Rewrite everything",
+        "Ignore it",
+        "Delete dependencies"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "skillId": 6,
+      "role": "Backend Developer",
+      "skill": "Node.js",
+      "question": "Which Node.js module is commonly used to create an HTTP server?",
+      "options": [
+        "http",
+        "canvas",
+        "dom",
+        "react"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "skillId": 9,
+      "role": "Backend Developer",
+      "skill": "REST APIs",
+      "question": "Which status code usually indicates a successful resource creation?",
+      "options": [
+        "200",
+        "201",
+        "301",
+        "404"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "skillId": 7,
+      "role": "Backend Developer",
+      "skill": "SQL",
+      "question": "Which JOIN returns matching rows from both tables?",
+      "options": [
+        "INNER JOIN",
+        "CROSS JOIN",
+        "FULL TEXT",
+        "UNION ALL"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "skillId": 7,
+      "role": "Backend Developer",
+      "skill": "SQL",
+      "question": "Which index is primarily used to speed up lookups on indexed columns?",
+      "options": [
+        "Database index",
+        "CSS index",
+        "HTML index",
+        "Git index"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "skillId": 9,
+      "role": "Backend Developer",
+      "skill": "REST APIs",
+      "question": "Which HTTP method is generally idempotent for replacing a resource?",
+      "options": [
+        "POST",
+        "PUT",
+        "CONNECT",
+        "TRACE"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "skillId": 8,
+      "role": "Backend Developer",
+      "skill": "Git",
+      "question": "What does git pull typically do?",
+      "options": [
+        "Fetch and integrate remote changes",
+        "Delete local changes",
+        "Create a tag only",
+        "Reset passwords"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "skillId": 12,
+      "role": "Backend Developer",
+      "skill": "Problem Solving",
+      "question": "What should server-side validation do?",
+      "options": [
+        "Trust all client input",
+        "Validate and reject invalid input",
+        "Disable authentication",
+        "Hide errors only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "skillId": 3,
+      "role": "Backend Developer",
+      "skill": "Java",
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "super"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "skillId": 2,
+      "role": "Python Developer",
+      "skill": "Python",
+      "question": "Which type stores key-value pairs?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 26,
+      "skillId": 2,
+      "role": "Python Developer",
+      "skill": "Python",
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "lambda"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "skillId": 2,
+      "role": "Python Developer",
+      "skill": "Python",
+      "question": "What does len([1,2,3]) return?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "None"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "skillId": 7,
+      "role": "Python Developer",
+      "skill": "SQL",
+      "question": "Which clause filters rows before grouping?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "GROUP BY"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "skillId": 10,
+      "role": "Python Developer",
+      "skill": "Data Analysis",
+      "question": "Which library is commonly used for tabular data in Python?",
+      "options": [
+        "Pandas",
+        "Flask",
+        "PyTest",
+        "Tkinter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "skillId": 8,
+      "role": "Python Developer",
+      "skill": "Git",
+      "question": "Which command creates a new branch and switches to it in modern Git?",
+      "options": [
+        "git switch -c",
+        "git copy",
+        "git branch -x",
+        "git fork"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 31,
+      "skillId": 12,
+      "role": "Python Developer",
+      "skill": "Problem Solving",
+      "question": "What is a useful debugging approach?",
+      "options": [
+        "Reproduce, inspect, test a fix",
+        "Guess repeatedly",
+        "Skip tests",
+        "Ignore logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "skillId": 9,
+      "role": "Python Developer",
+      "skill": "REST APIs",
+      "question": "Which format is commonly exchanged by web APIs?",
+      "options": [
+        "JSON",
+        "BMP",
+        "EXE",
+        "PSD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 33,
+      "skillId": 3,
+      "role": "Java Developer",
+      "skill": "Java",
+      "question": "Which keyword inherits a class?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "super"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "skillId": 3,
+      "role": "Java Developer",
+      "skill": "Java",
+      "question": "Which collection does not allow duplicate elements?",
+      "options": [
+        "List",
+        "Set",
+        "QueueList",
+        "ArrayList"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "skillId": 3,
+      "role": "Java Developer",
+      "skill": "Java",
+      "question": "Which concept hides implementation details behind a public interface?",
+      "options": [
+        "Encapsulation",
+        "Compilation",
+        "Iteration",
+        "Overloading only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "skillId": 7,
+      "role": "Java Developer",
+      "skill": "SQL",
+      "question": "Which clause filters rows before grouping?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "JOIN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "skillId": 9,
+      "role": "Java Developer",
+      "skill": "REST APIs",
+      "question": "Which method is commonly used to retrieve a resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PATCH",
+        "DELETE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "skillId": 8,
+      "role": "Java Developer",
+      "skill": "Git",
+      "question": "Which command shows the current working tree state?",
+      "options": [
+        "git status",
+        "git run",
+        "git state",
+        "git check"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "skillId": 12,
+      "role": "Java Developer",
+      "skill": "Problem Solving",
+      "question": "What is a good first debugging step?",
+      "options": [
+        "Reproduce the issue",
+        "Change random code",
+        "Delete tests",
+        "Ignore the stack trace"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "skillId": 11,
+      "role": "Java Developer",
+      "skill": "Communication",
+      "question": "What is useful when explaining a technical design?",
+      "options": [
+        "Clear assumptions and trade-offs",
+        "Only jargon",
+        "No context",
+        "Avoid questions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "skillId": 2,
+      "role": "Data Analyst",
+      "skill": "Python",
+      "question": "Which type stores key-value pairs?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 42,
+      "skillId": 7,
+      "role": "Data Analyst",
+      "skill": "SQL",
+      "question": "Which clause filters rows before grouping?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "JOIN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "skillId": 7,
+      "role": "Data Analyst",
+      "skill": "SQL",
+      "question": "Which function calculates the average of numeric values?",
+      "options": [
+        "AVG",
+        "COUNT_TEXT",
+        "MID",
+        "RANGE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "skillId": 10,
+      "role": "Data Analyst",
+      "skill": "Data Analysis",
+      "question": "Which chart commonly shows a trend over time?",
+      "options": [
+        "Line chart",
+        "Pie chart",
+        "Tree map",
+        "Gauge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "skillId": 10,
+      "role": "Data Analyst",
+      "skill": "Data Analysis",
+      "question": "What is the purpose of data cleaning?",
+      "options": [
+        "Fix quality issues before analysis",
+        "Add random values",
+        "Hide missing data",
+        "Remove all rows"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 46,
+      "skillId": 2,
+      "role": "Data Analyst",
+      "skill": "Python",
+      "question": "Which library is commonly used for DataFrame operations?",
+      "options": [
+        "Pandas",
+        "Django",
+        "RequestsOnly",
+        "Selenium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 47,
+      "skillId": 11,
+      "role": "Data Analyst",
+      "skill": "Communication",
+      "question": "What should a data insight communicate?",
+      "options": [
+        "Finding, evidence and implication",
+        "Only raw numbers",
+        "Only colors",
+        "No context"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "skillId": 12,
+      "role": "Data Analyst",
+      "skill": "Problem Solving",
+      "question": "What should you do when an analysis result looks suspicious?",
+      "options": [
+        "Validate assumptions and data",
+        "Publish immediately",
+        "Ignore it",
+        "Delete the dataset"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "skillId": 13,
+      "role": "Cloud Engineer",
+      "skill": "Cloud Fundamentals",
+      "question": "What is the main purpose of cloud computing?",
+      "options": [
+        "On-demand computing resources",
+        "Only local storage",
+        "Offline word processing",
+        "Replacing all networks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "skillId": 14,
+      "role": "Cloud Engineer",
+      "skill": "Linux",
+      "question": "Which command lists files in a directory on Linux?",
+      "options": [
+        "ls",
+        "pwdx",
+        "showfiles",
+        "dironly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "skillId": 8,
+      "role": "Cloud Engineer",
+      "skill": "Git",
+      "question": "Which command copies a remote repository locally?",
+      "options": [
+        "git push",
+        "git merge",
+        "git clone",
+        "git status"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 52,
+      "skillId": 2,
+      "role": "Cloud Engineer",
+      "skill": "Python",
+      "question": "Which file format is commonly used for structured configuration?",
+      "options": [
+        "YAML",
+        "MP3",
+        "PSD",
+        "BMP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "skillId": 9,
+      "role": "Cloud Engineer",
+      "skill": "REST APIs",
+      "question": "Which status code indicates a missing resource?",
+      "options": [
+        "201",
+        "204",
+        "404",
+        "503"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "skillId": 12,
+      "role": "Cloud Engineer",
+      "skill": "Problem Solving",
+      "question": "What is a sensible first step during an infrastructure incident?",
+      "options": [
+        "Check symptoms, logs and recent changes",
+        "Restart everything blindly",
+        "Delete resources",
+        "Ignore alerts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "skillId": 14,
+      "role": "Cloud Engineer",
+      "skill": "Linux",
+      "question": "Which command prints the current directory?",
+      "options": [
+        "pwd",
+        "where",
+        "cwd",
+        "locate-dir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "skillId": 11,
+      "role": "Cloud Engineer",
+      "skill": "Communication",
+      "question": "What is important in an incident handoff?",
+      "options": [
+        "Clear timeline, impact and next steps",
+        "Only screenshots",
+        "No timestamps",
+        "Avoid documenting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "skillId": 3,
+      "role": "Software Developer",
+      "skill": "Java",
+      "question": "Which keyword inherits a class?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "super"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "skillId": 2,
+      "role": "Software Developer",
+      "skill": "Python",
+      "question": "Which type stores key-value pairs?",
+      "options": [
+        "List",
+        "Tuple",
+        "Dictionary",
+        "Set"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "skillId": 7,
+      "role": "Software Developer",
+      "skill": "SQL",
+      "question": "Which clause filters rows before grouping?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "ORDER BY",
+        "JOIN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "skillId": 9,
+      "role": "Software Developer",
+      "skill": "REST APIs",
+      "question": "Which method commonly retrieves a resource?",
+      "options": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "skillId": 8,
+      "role": "Software Developer",
+      "skill": "Git",
+      "question": "Which command copies a remote repository locally?",
+      "options": [
+        "push",
+        "merge",
+        "clone",
+        "status"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 62,
+      "skillId": 12,
+      "role": "Software Developer",
+      "skill": "Problem Solving",
+      "question": "What is a useful first debugging step?",
+      "options": [
+        "Reproduce the issue",
+        "Guess",
+        "Delete code",
+        "Ignore logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "skillId": 11,
+      "role": "Software Developer",
+      "skill": "Communication",
+      "question": "What improves a technical explanation?",
+      "options": [
+        "Clear structure and examples",
+        "More jargon",
+        "No assumptions",
+        "Avoid questions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "skillId": 4,
+      "role": "Software Developer",
+      "skill": "HTML/CSS",
+      "question": "Which element is the main heading?",
+      "options": [
+        "<p>",
+        "<h1>",
+        "<section>",
+        "<head>"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "studentSkills": {
+    "1": {
+      "1": 4,
+      "4": 4,
+      "5": 3,
+      "6": 3,
+      "7": 3,
+      "8": 4,
+      "11": 4
+    },
+    "2": {
+      "2": 4,
+      "7": 4,
+      "10": 4,
+      "11": 4,
+      "12": 4,
+      "8": 3
+    },
+    "3": {
+      "3": 4,
+      "6": 4,
+      "9": 4,
+      "7": 4,
+      "8": 4,
+      "12": 4
+    }
+  },
+  "assessments": [],
+  "resultSkills": {},
+  "roadmaps": {},
+  "aiReports": {},
+  "internships": [
+    {
+      "id": 1,
+      "companyId": 4,
+      "title": "Frontend Development Intern",
+      "description": "Build responsive interfaces with a product team.",
+      "location": "Bengaluru",
+      "mode": "Hybrid",
+      "duration": "3 months",
+      "openings": 2,
+      "status": "open",
+      "skills": [
+        {
+          "skillId": 1,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 4,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 5,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 8,
+          "requiredLevel": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "companyId": 4,
+      "title": "Backend Development Intern",
+      "description": "Work on REST services, database queries and testing.",
+      "location": "Bengaluru",
+      "mode": "On-site",
+      "duration": "4 months",
+      "openings": 1,
+      "status": "open",
+      "skills": [
+        {
+          "skillId": 6,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 9,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 7,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 8,
+          "requiredLevel": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "companyId": 5,
+      "title": "Data Analytics Intern",
+      "description": "Prepare datasets and create analysis reports.",
+      "location": "Hyderabad",
+      "mode": "Hybrid",
+      "duration": "3 months",
+      "openings": 2,
+      "status": "open",
+      "skills": [
+        {
+          "skillId": 2,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 7,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 10,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 11,
+          "requiredLevel": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "companyId": 6,
+      "title": "Cloud Engineering Intern",
+      "description": "Assist with deployment and cloud workflows.",
+      "location": "Pune",
+      "mode": "Hybrid",
+      "duration": "4 months",
+      "openings": 1,
+      "status": "open",
+      "skills": [
+        {
+          "skillId": 2,
+          "requiredLevel": 2
+        },
+        {
+          "skillId": 14,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 8,
+          "requiredLevel": 3
+        },
+        {
+          "skillId": 12,
+          "requiredLevel": 3
+        }
+      ]
+    }
+  ],
+  "applications": []
+}
