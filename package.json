@@ -1,0 +1,15 @@
+{
+  "name": "skillbridge-sih-runtime",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SkillBridge SIH 2026 runnable full-stack prototype with a zero-dependency Node runtime",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "reset": "node -e \"require('fs').copyFileSync('backend/data/seed-data.json','backend/data/runtime.json')\"",
+    "test": "node tests/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
